@@ -1,154 +1,150 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-.principal-section{
-    display: flex;
-    gap: 00px;
+.principal-section {
+  display: flex;
+  gap: 00px;
 }
 
 .menu {
-    display: flex;
-    flex-direction: column;
-    width: 22%;
-    border-style: solid;
-    border-color: #e1e1e1;
-    border-width: 1px;
-
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  border-style: solid;
+  border-color: #e1e1e1;
+  border-width: 1px;
 }
 
-.user-box{
-    display: flex;
-    height: 80px;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    border-style: solid;
-    border-color: #e1e1e1;
-    border-width: 1px;
+.user-box {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-style: solid;
+  border-color: #e1e1e1;
+  border-width: 1px;
 }
 
-.user-box-info{
-    display: flex;
-    width: 50%;
-    align-items: center;
-    height: 80%;
-    gap: 10px;
+.user-box-info {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  height: 80%;
+  gap: 10px;
 }
 
-.user-box-info img{
-    height: 40px;
-    border-radius: 100%;
+.user-box-info img {
+  height: 40px;
+  border-radius: 100%;
 }
 
-.user-status{
-    display: flex;
-    flex-direction: column;
+.user-status {
+  display: flex;
+  flex-direction: column;
 }
 
 .name {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 .status {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    color: #9f9d9d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #9f9d9d;
 }
 
 .user-box-icons {
-    display: flex;
-    gap: 15px;
-    font-size: 20px;
-    color: rgb(184, 180, 180);
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  color: rgb(184, 180, 180);
 }
 
-.new-chat{
-    display: flex;
-    height: 160px;
-    justify-content: center;
-    align-items: center;
-    border-style: solid;
-    border-color: #e1e1e1;
-    border-width: 1px;
+.new-chat {
+  display: flex;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: #e1e1e1;
+  border-width: 1px;
 }
 
 .new-chat-button {
-    height: 33%;
-    background-color: #A491D2;
-    width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+  height: 33%;
+  background-color: #a491d2;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
-
 
 .chats {
-    display: flex;
-    flex-direction: column;
-    height: 72%;
+  display: flex;
+  flex-direction: column;
+  height: 72%;
 }
 
-.chats-card{
-    display: flex;
-    height: 80px;
-    border-style: solid;
-    border-color: #e1e1e1;
-    border-width: 1px;
-    padding-left: 10%;
-    padding-right: 10%;
-    gap: 10px;
-    justify-content: start;
-    align-items: center;
+.chats-card {
+  display: flex;
+  height: 80px;
+  border-style: solid;
+  border-color: #e1e1e1;
+  border-width: 1px;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
 }
-.chats-card img{
-    width: auto;
-    border-radius: 80%;
-    height: 80%;
-
+.chats-card img {
+  width: auto;
+  border-radius: 80%;
+  height: 80%;
 }
 
 .chats-card-detl {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .last-msg {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 .big-chat {
-    display: flex;
-    flex-direction: column;
-    width: 79%;
-    align-items: center;
-    justify-content: center;
-    background-color: #f4f4f4;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 79%;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  gap: 5px;
 }
 
 .big-chat h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
 }
 
 .big-chat p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
 
-
 .big-chat img {
-    width: auto;
-    height: 300px;
-    border-radius: 5%;
+  width: auto;
+  height: 300px;
+  border-radius: 5%;
 }
