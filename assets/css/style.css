@@ -6,7 +6,7 @@
 
 .principal-section {
   display: flex;
-  gap: 00px;
+  max-height: 100vh;
 }
 
 .menu {
@@ -16,11 +16,12 @@
   border-style: solid;
   border-color: #e1e1e1;
   border-width: 1px;
+  max-height: 100vh;
 }
 
 .user-box {
   display: flex;
-  height: 80px;
+  height: 10vh;
   justify-content: space-between;
   align-items: center;
   padding-left: 10%;
@@ -68,7 +69,7 @@
 
 .new-chat {
   display: flex;
-  height: 160px;
+  height: 20vh;
   justify-content: center;
   align-items: center;
   border-style: solid;
@@ -91,7 +92,8 @@
 .chats {
   display: flex;
   flex-direction: column;
-  height: 72%;
+  height: 70vh;
+  overflow: auto;
 }
 
 .chats-card {
